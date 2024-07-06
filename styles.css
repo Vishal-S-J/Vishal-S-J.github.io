@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.profile-header img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.profile-header img:hover {
+    transform: scale(1.1);
+}
+
+.main-content h2 {
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.contact p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    text-decoration: underline;
+}
